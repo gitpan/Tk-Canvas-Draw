@@ -1,7 +1,7 @@
 
 package Tk::Canvas::Draw;
 
-our $VERSION = '0.04';
+our $VERSION = '0.05';
 
 =head1 NAME
 
@@ -19,7 +19,7 @@ registered callback is invoked to handle any necessary final processing.
 
 =head1 VERSION
 
-Version 0.04
+Version 0.05
 
 =head1 SYNOPSIS
 
@@ -73,11 +73,11 @@ Joins the first point with the most recent point to create an oval.
 
 =item 'circle'
 
-JOins the first point with the most recent point to create a circle.
+Joins the first point with the most recent point to create a circle.
 
 =item 'rectangle'
 
-JOins the first point with the most recent point to create a rectangle.
+Joins the first point with the most recent point to create a rectangle.
 
 =item 'mouse'
 
@@ -236,7 +236,6 @@ current Canvas used by $obj)
 
 =head1 EXAMPLE 1
 
-=begin text
     #!/usr/bin/perl -w
     #
     # Here's a quick example to stimulate your immediate excitement.
@@ -272,12 +271,7 @@ current Canvas used by $obj)
     }
 
 
-
-=end text
-
 =head1 EXAMPLE 2
-
-=begin text
 
     #!/usr/bin/perl -w
     #
@@ -309,12 +303,7 @@ current Canvas used by $obj)
     }
 
 
-
-=end text
-
 =head1 EXAMPLE 3
-
-=begin text
 
     #!/usr/bin/perl -w
     #
@@ -472,15 +461,13 @@ current Canvas used by $obj)
     }
     
 
-=end text
-
 =head1 AUTHOR
 
 John C. Norton
 
 =head1 COPYRIGHT & LICENSE
 
-Copyright 2009 John C. Norton.
+Copyright 2009-2010 John C. Norton.
 
 This program is free software; you can redistribute it and/or modify it
 under the terms of either: the GNU General Public License as published

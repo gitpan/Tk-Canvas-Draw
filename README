@@ -3,8 +3,8 @@
 Tk-Canvas-Draw
 
 Here's a quick example to stimulate your immediate excitement.
-The following program 'doodle' lets you draw colorful, freehand lines
-in a Tk Canvas!
+The following program 'doodle' lets you draw colorful freehand
+lines in a Tk Canvas!
 
     use strict;
     use warnings;
